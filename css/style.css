@@ -14,7 +14,8 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-blend-mode: saturation;
+    box-shadow: inset 0px 0px 3000px 3000px rgba(2, 34, 58, 0.6);
     font-family: 'Ubuntu', sans-serif;
 
 }
@@ -67,6 +68,7 @@ html {
     color: white !important;
 
 }
+
 
 .logoImg {
     max-width: 130px;
@@ -256,6 +258,7 @@ html {
     margin-left: 10vw;
     margin-right: 10vw;
     line-height: 1.6;
+    color: white;
 
 }
 
@@ -303,6 +306,10 @@ html {
     background-color: white;
 }
 
+.img-thumbnail {
+    margin-top: 1vw;
+}
+
 .imagenprod {
     max-width: 100px;
 }
@@ -313,6 +320,7 @@ html {
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 1vw;
+    color: #fbfbfb;
 }
 
 /*contacto*/
@@ -371,7 +379,6 @@ textarea {
     background-color: rgb(23, 138, 238);
     border: rgb(23, 138, 238) 3px solid;
     border-radius: 40px;
-    padding: 10px;
     font-size: 20px;
 
 }
@@ -538,6 +545,13 @@ ul {
 
     .nav-item a {
         font-size: 9vw;
+
+    }
+
+    .nav-item a:hover {
+        text-decoration: none;
+        color: rgb(23, 138, 238) !important;
+
     }
 
     .nav-item .dropdown-item {
@@ -605,6 +619,29 @@ ul {
     .f4,
     .f5 {
         width: 100%;
+    }
+
+    .accordion-button {
+        background-color: rgb(23, 138, 238) !important;
+        color: white !important;
+
+    }
+
+    .accordion-item {
+        background-color: rgb(23, 138, 238) !important;
+        color: white !important;
+        border: 0px;
+
+    }
+
+    .accordion-body {
+        background-color: rgb(23, 138, 238) !important;
+        color: white !important;
+    }
+
+    .accordion-button:focus {
+        border-color: rgb(23, 138, 238) !important;
+        box-shadow: none;
     }
 
     .tituloPqe,
